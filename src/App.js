@@ -10,7 +10,7 @@ import Alert from './component/Alert';
 
 function App() {
   const [mode, setMode] = useState('light'); // wheather 
-  const [alert, setAlert] =useState(null);
+  const [alert, setAlert] = useState(null);
 
   const showAlert = (massage, type) =>{
 
